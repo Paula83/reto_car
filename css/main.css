@@ -1,1 +1,13 @@
 /* Los estilos de tu proyecto */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.fondo{
+	background-image: url(../assets/images/taxi.jpg);
+	background-size: cover;
+	background-position: center;
+	height:150em;
+	
+}
