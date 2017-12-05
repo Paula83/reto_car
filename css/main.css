@@ -4,10 +4,86 @@
 	padding: 0;
 	box-sizing: border-box;
 }
+
+.navbar-default{
+	background-color: #fff;
+	border-color: #fff;
+}
+
 .fondo{
 	background-image: url(../assets/images/taxi.jpg);
-	background-size: cover;
-	background-position: center;
-	height:150em;
+	width: 100%;
+    height: 700px;
+    background-position: 8% 92%;
+    background-size: cover;
+    
 	
+}
+
+.jumbotron{
+	background-color: #F7B617;
+	color:#fff;
+	font-size: 8px;
+	margin-left: 10px;
+	margin-right: -15px;
+}
+
+.jumbotron h1{
+	font-size: 30px;
+}
+
+.boton{
+	background:#fff;
+	color:#000;
+}
+
+input{
+	border:none;
+	background:#F7B617;
+	border-bottom:1px solid #fff;
+}
+
+input p{
+text-align: center;
+}
+
+.telefono{
+background:#F7B617;
+height: 450px;
+padding: 30px 0px;
+padding-bottom: 30px;
+}
+
+.borde{
+	border: 1px solid #fff;
+	padding: 30px;
+}
+
+.telefono h1{
+	color:#fff;
+	font-size:px;
+}
+
+
+.telefono p {
+	color:#fff;
+	font-size: 20px;
+}
+
+.volante img{
+
+	background-position: center;
+	height: 450px;
+}
+
+.conduce{
+	height: 50px;
+	margin:red;
+}
+
+.img-responsive {
+	background-image: url("../assets/images/conduce.jpg");
+	background-position: center;
+	width: 100%;
+	height: 450px;
 }
