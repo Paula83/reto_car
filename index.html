@@ -11,15 +11,15 @@
   </head>
    <body>
    
-    	<!-- Menú (logotipo - icono) -->
-    	<nav class="navbar navbar-default">
-        <div class="container-fluid">
-          <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-              <span class="sr-only">Toggle navigation</span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
+	<!-- Menú (logotipo - icono) -->
+    <nav class="navbar navbar-default">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+             <span class="icon-bar"></span>
+             <span class="icon-bar"></span>
+             <span class="icon-bar"></span>
             </button>
             <a class="navbar-brand" href="#"><img src="assets/images/logoForma.png" alt=""></a>
           </div>
@@ -39,9 +39,9 @@
     			<div class="fondo">
           <div class="container-fluid">
               <div class="row">
-            <div class="col-md-5 col-md-7 pull-right hidden-xs">
+            <div class="col-md-5 col-md-7 pull-right ">
               <div class="jumbotron">
-                <h1>Disfruta el viaje</h1>
+                <h1 class="hidden-xs">Disfruta el viaje</h1>
                 <h1>Eres dueño de tu vida</h1>
                 <br>
                 <p>Viaja con <img src="assets/images/logoBlanco.png" alt=""></p><button class="boton btn btn default">REGÍSTRATE</button>
@@ -96,55 +96,45 @@
               </div>
            </section>
            <!--Formulario de tarifas-->
-           <section>
-             <div class="container3">
+           <section class="tarifa">
+             <div class="container">
              <div class="row">
                <div class="hidden-xs hidden-sm col-md-4 texto">
                <h2>Tarifas</h2>
                <p>Consulta las tarifas LabCard aquí</p>
                  <div class="container-form">
                  <div class="row">
-          <div class="col col-xs-1 icono ">
+          <div class=col-xs-6 col-sm-12">
           <img src="assets/images/shape.png" alt="icono"></div>
-          <div class="col-xs-5 ">
-          <div class="input-group">
-          <input type="text" class="form-control" placeholder="Ingrese su punto de partida" style=" width: 200px; color:#fff; font-size: 10px;"></div>
+          <div class="col-xs-6 col-sm-12 ">
+          <input type="text" class="form-control" placeholder="Ingrese su punto de partida" style=" ;">
         </div>
       </div>
       </div>
       <br>
-      <div class="col-xs-1 ">
-          <img src="assets/images/shape2.png" alt=""></div>
-      <div class="col-xs-5 ">
-          <div class="input-group">
-          <input type="text" class="form-control" placeholder="Ingrese su destino" style=" color:#fff; font-size: 10px;">
+      <div class="col-xs-6 col-sm-12 ">
+          <img src="assets/images/shape2.png" alt="">
+          <input type="text" class="form-control" placeholder="Ingrese su destino">
          <br>
-          <br>
-          <div class="row">
-          <div class="form-group">
       <div class="col-sx-1 col-md-4 col-sm-offset-3">
       <button class="btn btn primary">!TRAZAR RUTA!</button>
       </div>
       </div>
       </div>
-      </div>
-      </div>
-      <div class="container">
-      <div class="row">
-        <div class="col-md-offset-1 col-md-5 pull-right">
-          <iframe class="thumbnail image-responsive" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d62523112.01406334!2d-111.68263479507961!3d-15.610283760438165!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x90f99effb40af535%3A0xd2673dbf02a5b69c!2sLatin+America!5e0!3m2!1ses-419!2scl!4v1512399612050" width="400" height="300" frameborder="0" style="border:0" allowfullscreen>
+        <div class="col-md-offset-1 col-md-6  pull-right mapa">
+          <iframe class="thumbnail image-responsive" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d62523112.01406334!2d-111.68263479507961!3d-15.610283760438165!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x90f99effb40af535%3A0xd2673dbf02a5b69c!2sLatin+America!5e0!3m2!1ses-419!2scl!4v1512399612050" width="100%" height="400" frameborder="0" style="border:0" allowfullscreen>
             
           </iframe>
-          </div>
-          </div>
+          
         </div>
       </div>
       </div>
-      </div>
+      
            </section>
            
   		<!--script-->
   		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  		<script src="https://use.fontawesome.com/ed2e47e94a.js"></script> 
   	</body>
   	</html>

@@ -117,10 +117,10 @@ padding-bottom: 30px;
 
 }
 
-.placeholder{
-	font-size: 10px;
+.input-group input::placeholder{
 	color:#fff;
-	border-radius: 5px;
+	width: 200px;
+	font-size: 15px
 }
 
 .btn{
@@ -128,19 +128,11 @@ padding-bottom: 30px;
 	color:#000;
 }
 
-
-.thumbnail {
-	margin-top: -100px;
+.mapa{
+    margin-top:50px;
 	padding:0px;
-	border-color: 20px #fff;
-    background-position:center;
-    background-size:cover;
-}
 
-.shape2{
-	margin-left: -5px;
 }
-
-.icono img{
-	margin-left: -50px;
+.tarifa{
+	background:#F7B617;
 }
